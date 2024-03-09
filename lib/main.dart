@@ -18,14 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo', 
         theme: ThemeData(),
-         home: myHomeHook());
+         home: myHomeHook() // aw myHome1()
+         );
   }
 }
 
-// class myHome1 extends StatefulWidget {
-//   @override
-//   State<myHome1> createState() => _myHome1State();
-// }
+
 
 class myHome1 extends StatefulWidget{
   @override
@@ -131,6 +129,7 @@ class _myHome1State extends State<myHome1> {
 //   }
 // }
 
+// ------------------------------(Hoooooooook Version)----------------------------------
 class myHomeHook extends HookWidget {
   Widget build(BuildContext context) {
     final questionIndex = useState(0);
