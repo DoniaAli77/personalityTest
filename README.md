@@ -1,4 +1,4 @@
-# flutter_application_1
+# Personality Test
 
 A new Flutter project.
 
