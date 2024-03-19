@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
 }
 
 
-// ------------------------------(StateFull Version)----------------------------------
+// ------------------------------(StateFul Version)----------------------------------
 
 class myHome extends StatefulWidget {
   @override
