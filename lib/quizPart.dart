@@ -7,8 +7,8 @@ final Function cbFunction;
   final int qIndex;
   final List<Map<String, Object>> qList;
 
-  QuizPart(
-      {required this.qList, required this.qIndex, required this.cbFunction});
+  const QuizPart(
+      {super.key, required this.qList, required this.qIndex, required this.cbFunction});
 
   @override
   Widget build(BuildContext context) {
